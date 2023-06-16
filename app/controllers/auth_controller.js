@@ -56,7 +56,7 @@ const register = async (req, res) => {
             data: newUser,
             token: token,
         });
-    } catch (error) {
+    } catch (error) { 
         res.status(500).json({
             code: 500,
             status: "error",
